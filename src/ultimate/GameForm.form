@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ultimate.GameForm">
+  <grid id="27dc6" binding="gamePanel" layout-manager="GridLayoutManager" row-count="18" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="810" height="594"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="76b29">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="c13b4">
+        <constraints>
+          <grid row="1" column="0" row-span="16" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="500"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="73bac" class="javax.swing.JButton" binding="goButton">
+        <constraints>
+          <grid row="1" column="2" row-span="16" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+            <preferred-size width="60" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Go"/>
+        </properties>
+      </component>
+      <component id="3105c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="16" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ultimate Empowerment"/>
+        </properties>
+      </component>
+      <hspacer id="185ab">
+        <constraints>
+          <grid row="1" column="3" row-span="2" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="ca974" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Throw Range (0 for everywhere)"/>
+        </properties>
+      </component>
+      <component id="62714" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Empowerment Lookahead"/>
+        </properties>
+      </component>
+      <component id="b72fe" class="javax.swing.JLabel" binding="runningLabel">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="7b4b5" class="javax.swing.JLabel" binding="stepLabel">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="4e4a2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step"/>
+        </properties>
+      </component>
+      <vspacer id="12f73">
+        <constraints>
+          <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="10"/>
+            <preferred-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="51c92" class="javax.swing.JComboBox" binding="empowermentLookaheadComboBox" custom-create="true">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c3bdb" class="javax.swing.JComboBox" binding="throwRangeComboBox" custom-create="true">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ef485" class="javax.swing.JComboBox" binding="scenarioComboBox" custom-create="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="619a6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Scenario"/>
+        </properties>
+      </component>
+      <component id="1a939" class="javax.swing.JComboBox" binding="discVelocityComboBox" custom-create="true">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="572cb" class="javax.swing.JCheckBox" binding="includeTeamMovesCheckBox" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <selected value="false"/>
+          <text value="Include Team Moves"/>
+        </properties>
+      </component>
+      <component id="cb185" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Disc Velocity"/>
+          <verticalAlignment value="3"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
